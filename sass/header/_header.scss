@@ -9,6 +9,11 @@
   border-bottom: 1px solid $main-color;
 
   @media screen and(min-width:$mobile) {
-    width: 320px;
+    width: $mobile;
+  }
+
+  @media screen and(min-width:$tablet) {
+    width: $tablet;
+    margin-bottom: 0;
   }
 }

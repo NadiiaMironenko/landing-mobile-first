@@ -1,0 +1,88 @@
+.card {
+  width: 290px;
+  height: 350px;
+  background-color: $white-color;
+  margin-bottom: 30px;
+
+  @media screen and(min-width:$tablet){
+    width: 352px;
+    height: 350px;
+    margin-bottom: 0;
+  }
+}
+
+.cards {
+  border-bottom: 1px solid $main-color;
+}
+
+.cards-list {
+  @media screen and(min-width:$tablet) {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 55px;
+  }
+}
+
+.card-img {
+  margin-bottom: 20px;
+
+  @media screen and(min-width:$tablet){
+    width: 352px;
+    height: 275px;
+  }
+
+}
+.title {
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 1.25;
+
+  letter-spacing: 0.07em;
+
+  color: $main-color;
+  margin-bottom: 4px;
+}
+
+.discount {
+  display: inline-flex;
+}
+
+.price-before {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.25;
+  letter-spacing: 0.04em;
+
+  color: #bbbbbb;
+
+  margin-right: 10px;
+}
+
+.price-now {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.25;
+  letter-spacing: 0.04em;
+
+  color: $secondary-color;
+}
+
+.price {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.25;
+  letter-spacing: 0.04em;
+
+  color: $main-color;
+}
+
+.info {
+  margin-left: 19px;
+  margin-bottom: 20px;
+}

@@ -11,10 +11,17 @@
 
 .features {
   display: flex;
+  width: 270px;
   align-items: center;
   justify-content: space-between;
 
   margin-bottom: 27px;
+
+  @media screen and(min-width:$tablet){
+    width: 340px;
+    padding-left: 50px;
+    margin-bottom: 19px;
+  }
 }
 
 .chapter {

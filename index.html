@@ -28,78 +28,112 @@
           <use href="./images/sprite.svg#icon-search"></use>
         </svg>
       </section>
-      <!-- main -->
-      <main>
-        <!-- sale -->
-        <h1 class="hide">shopping list</h1>
-        <section class="section sale">
-          <div class="features">
-            <h2 class="chapter">Розпродаж</h2>
-            <h2 class="chapter">різне</h2>
-            <button class="link-all" type="button">Дивитися всі</button>
-          </div>
-          <div class="cards">
-            <ul>
-              <li class="card">
-                <img
-                  class="card-img"
-                  src="./images/black-t-shirt.jpg"
-                  alt="black-t-shirt"
-                />
-                <div class="info">
-                  <h3 class="title">Майка жіноча чорна</h3>
-                  <span class="discount">
-                    <p class="price-before">200 грн</p>
-                    <p class="price-now">100 грн</p>
-                  </span>
-                </div>
-              </li>
-              <li class="card">
-                <img class="card-img" src="./images/t-shirt.jpg" alt="t-shirt"
-                />
-                <div class="info">
-                  <h3 class="title">Футболка спортивна</h3>
-                  <span class="discount">
-                    <p class="price-before">300 грн</p>
-                    <p class="price-now">200 грн</p>
-                  </span>
-                </div>
-              </li>
-            </ul>
-          </div>
-          <div class="features">
-            <h2 class="chapter">Відпочинок і спорт</h2>
-            <button class="link-all" type="button">Дивитися всі</button>
-          </div>
-          <div class="cards">
-            <ul>
-              <li class="card">
-                <img class="card-img" src="./images/white-jacket.jpg" alt="white-jacket"
-                />
-                <div class="info">
-                  <h3 class="title">Куртка жіноча</h3>
-                  <p class="price">2 300 грн</p>
-                </div>
-              </li>
-              <li class="card">
-                <img class="card-img" src="./images/black-jacket.jpg" alt="black-jacket"
-                />
-                <div class="info">
-                  <h3 class="title">Куртка на блискавці</h3>
-                  <p class="price">5 000 грн</p>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </section>
-      </main>
+    </header>
+    <!-- main -->
+    <main>
+      <!-- sale -->
+      <h1 class="hide">shopping list</h1>
+      <section class="section sale">
+        <svg class="icon-arrow left">
+          <use href="./images/sprite.svg#icon-left-arrow"></use>
+        </svg>
+        <svg class="icon-arrow right">
+          <use href="./images/sprite.svg#icon-right-arrow"></use>
+        </svg>
+        <div class="features">
+          <h2 class="chapter">Розпродаж</h2>
+          <h2 class="chapter">різне</h2>
+          <button class="link-all" type="button">Дивитися всі</button>
+        </div>
+
+        <div class="cards">
+          <ul class="cards-list">
+            <li class="card">
+              <img
+                class="card-img"
+                src="./images/black-t-shirt.jpg"
+                alt="black-t-shirt"
+                srcset="
+                  ./images/black-t-shirt@2x.jpg 2x,
+                  ./images/black-t-shirt@3x.jpg 3x
+                "
+              />
+              <div class="info">
+                <h3 class="title">Майка жіноча чорна</h3>
+                <span class="discount">
+                  <s class="price-before">200 грн</s>
+                  <p class="price-now">100 грн</p>
+                </span>
+              </div>
+            </li>
+            <li class="card">
+              <img
+                class="card-img"
+                src="./images/t-shirt.jpg"
+                alt="t-shirt"
+                srcset="./images/t-shirt@2x.jpg 2x, ./images/t-shirt@3x.jpg 3x"
+              />
+              <div class="info">
+                <h3 class="title">Футболка спортивна</h3>
+                <span class="discount">
+                  <s class="price-before">300 грн</s>
+                  <p class="price-now">200 грн</p>
+                </span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
       <section class="section">
-          <ul class="pages">
+          <svg class="icon-arrow left">
+          <use href="./images/sprite.svg#icon-left-arrow"></use>
+        </svg>
+        <svg class="icon-arrow right">
+          <use href="./images/sprite.svg#icon-right-arrow"></use>
+        </svg>
+        <div class="features">
+          <h2 class="chapter">Відпочинок і спорт</h2>
+          <button class="link-all" type="button">Дивитися всі</button>
+        </div>
+        <div class="cards">
+          <ul class="cards-list">
+            <li class="card">
+              <img
+                class="card-img"
+                src="./images/white-jacket.jpg"
+                alt="white-jacket"
+              />
+              <div class="info">
+                <h3 class="title">Куртка жіноча</h3>
+                <p class="price">2 300 грн</p>
+              </div>
+            </li>
+            <li class="card">
+              <img
+                class="card-img"
+                src="./images/black-jacket.jpg"
+                alt="black-jacket"
+              />
+              <div class="info">
+                <h3 class="title">Куртка на блискавці</h3>
+                <p class="price">5 000 грн</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <section class="section">
+      <ul class="pages">
         <li><button class="page-number">1</button></li>
         <li><button class="page-number">2</button></li>
         <li><button class="page-number">3</button></li>
       </ul>
+    </section>
+    <footer class="footer">
+      <section>
+        <a href="https://github.com/NadiiaMironenko"></a>
       </section>
-    </header>
+    </footer>
   </body>
 </html>
