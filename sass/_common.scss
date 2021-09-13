@@ -1,5 +1,105 @@
-.section{
+.section {
+  margin-left: auto;
+  margin-right: auto;
+
+  @media screen and(min-width:$mobile) {
     width: 290px;
-    margin-left: auto;
-    margin-right: auto;
+  }
+}
+
+.card {
+    width: 290px;
+    height: 350px;
+    margin-bottom: 30px;
+    background-color: $white-color;
+}
+
+.cards {
+  border-bottom: 1px solid $main-color;
+  margin-bottom: 30px;
+  
+}
+
+.card-img {
+  margin-bottom: 20px;
+}
+.title {
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 1.25;
+
+  letter-spacing: 0.07em;
+
+  color: $main-color;
+  margin-bottom: 4px;
+}
+
+.discount{
+    display: inline-flex;
+    
+}
+
+.price-before{
+    font-family: Roboto;
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.25;
+letter-spacing: 0.04em;
+
+color: #BBBBBB;
+
+margin-right: 10px;
+}
+
+.price-now{
+    font-family: Roboto;
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.25;
+letter-spacing: 0.04em;
+
+color: $secondary-color;
+
+}
+
+.price{
+    font-family: Roboto;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.25;
+letter-spacing: 0.04em;
+
+color: $main-color;
+
+}
+
+.info{
+    margin-left: 19px;
+    margin-bottom: 20px;
+}
+
+.pages{
+    display: inline-flex;
+}
+
+.page-number{
+    width: 50px;
+height: 50px;
+background-color:$white-color ;
+color: $main-color;
+border-color: transparent;
+cursor: pointer;
+
+&:hover,
+&:focus{
+    background-color:$main-color;
+color: $white-color ;
+}
+
+&:not(:last-child){
+    margin-right: 1px;
+}
 }

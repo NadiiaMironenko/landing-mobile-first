@@ -30,46 +30,76 @@
       </section>
       <!-- main -->
       <main>
-          <!-- sale -->
+        <!-- sale -->
+        <h1 class="hide">shopping list</h1>
         <section class="section sale">
-          <h1>shopping list</h1>
-          <ul>
-            <li>Розпродаж</li>
-            <li>різне</li>
-            <li>Дивитися всі</li>
-          </ul>
-          <ul>
-            <li>
-              <a href=""
-                ><img src="./images/black-t-shirt.jpg" alt="black-t-shirt"
-              /></a>
-            </li>
-            <li>
-              <a href=""><img src="./images/t-shirt.jpg" alt="t-shirt" /></a>
-            </li>
-          </ul>
-        </section>
-
-        <section class="section sport">
+          <div class="features">
+            <h2 class="chapter">Розпродаж</h2>
+            <h2 class="chapter">різне</h2>
+            <button class="link-all" type="button">Дивитися всі</button>
+          </div>
+          <div class="cards">
             <ul>
-          <li>
-            <a href=""
-              ><img src="./images/white-jacket.jpg" alt="white-jacket"
-            /></a>
-          </li>
-          <li>
-            <a href=""
-              ><img src="./images/black-jacket.jpg" alt="black-jacket"
-            /></a>
-          </li>
-        </ul>
+              <li class="card">
+                <img
+                  class="card-img"
+                  src="./images/black-t-shirt.jpg"
+                  alt="black-t-shirt"
+                />
+                <div class="info">
+                  <h3 class="title">Майка жіноча чорна</h3>
+                  <span class="discount">
+                    <p class="price-before">200 грн</p>
+                    <p class="price-now">100 грн</p>
+                  </span>
+                </div>
+              </li>
+              <li class="card">
+                <img class="card-img" src="./images/t-shirt.jpg" alt="t-shirt"
+                />
+                <div class="info">
+                  <h3 class="title">Футболка спортивна</h3>
+                  <span class="discount">
+                    <p class="price-before">300 грн</p>
+                    <p class="price-now">200 грн</p>
+                  </span>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="features">
+            <h2 class="chapter">Відпочинок і спорт</h2>
+            <button class="link-all" type="button">Дивитися всі</button>
+          </div>
+          <div class="cards">
+            <ul>
+              <li class="card">
+                <img class="card-img" src="./images/white-jacket.jpg" alt="white-jacket"
+                />
+                <div class="info">
+                  <h3 class="title">Куртка жіноча</h3>
+                  <p class="price">2 300 грн</p>
+                </div>
+              </li>
+              <li class="card">
+                <img class="card-img" src="./images/black-jacket.jpg" alt="black-jacket"
+                />
+                <div class="info">
+                  <h3 class="title">Куртка на блискавці</h3>
+                  <p class="price">5 000 грн</p>
+                </div>
+              </li>
+            </ul>
+          </div>
         </section>
       </main>
-      <ul>
+      <section class="section">
+          <ul class="pages">
         <li><button class="page-number">1</button></li>
         <li><button class="page-number">2</button></li>
         <li><button class="page-number">3</button></li>
       </ul>
+      </section>
     </header>
   </body>
 </html>

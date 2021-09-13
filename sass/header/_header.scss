@@ -1,5 +1,14 @@
-.header{
-    display: flex;
-    align-items: center;
-    justify-content:space-between;
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 28px;
+  position: relative;
+  border-bottom: 1px solid $main-color;
+
+  @media screen and(min-width:$mobile) {
+    width: 320px;
+  }
 }
