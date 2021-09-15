@@ -1,12 +1,14 @@
 .header {
-  display: flex;
+position: relative;
+
+  display: flexbox;
   align-items: center;
   justify-content: space-between;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 28px;
-  position: relative;
   border-bottom: 1px solid $main-color;
+  height: 69px;
 
   @media screen and(min-width:$mobile) {
     width: $mobile;
@@ -15,5 +17,6 @@
   @media screen and(min-width:$tablet) {
     width: $tablet;
     margin-bottom: 0;
+    height: 143px;
   }
 }

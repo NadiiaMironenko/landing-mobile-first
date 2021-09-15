@@ -1,15 +1,19 @@
-.menu-button{
-    padding: 30px 25px;
+.menu-button {
+  position: absolute;
+  bottom: 0;
+  left: 0;
 
-    border-style: none;
-    background-color: $bg-color;
-    border-right: 1px solid $main-color;
-    
-    cursor: pointer;
+  padding: 25px 22px 23px 27px;
+
+  border-style: none;
+  background-color: $bg-color;
+  border-right: 1px solid $main-color;
+
+  cursor: pointer;
 }
 
 .icon-burger {
-  width: 15px;
-  height: 10px;
+  width: 20px;
+  height: 20px;
   background-size: contain;
 }
