@@ -135,6 +135,12 @@ h6 {
   cursor: pointer;
 }
 
+@media screen and (min-width: 1280px) {
+  .menu-button {
+    display: none;
+  }
+}
+
 .icon-burger {
   width: 20px;
   height: 20px;
@@ -153,6 +159,12 @@ h6 {
   letter-spacing: 0.02em;
   text-transform: uppercase;
   color: #000000;
+}
+
+@media screen and (min-width: 1280px) {
+  .logo {
+    font-size: 18px;
+  }
 }
 
 .icon-search {
@@ -203,6 +215,12 @@ h6 {
   }
 }
 
+@media screen and (min-width: 1280px) {
+  .header {
+    width: 1280px;
+  }
+}
+
 .reset-btn {
   display: none;
 }
@@ -229,6 +247,14 @@ h6 {
   }
 }
 
+@media screen and (min-width: 1280px) {
+  .reset-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
 .reset-btn::before {
   content: " ";
   width: 24px;
@@ -237,6 +263,52 @@ h6 {
   background-size: contain;
   background-repeat: no-repeat;
   margin-right: 14px;
+}
+
+@media screen and (min-width: 1280px) {
+  .links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .links-list {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
+}
+
+.section-link {
+  display: none;
+}
+
+@media screen and (min-width: 1280px) {
+  .section-link {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
+  .section-link:not(:last-child) {
+    margin-right: 42px;
+  }
+  .section-link:first-child {
+    margin-left: 20px;
+  }
+}
+
+.section-link > .link-style {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.12;
+  letter-spacing: 0.02em;
+  color: #000000;
 }
 
 .nav {
@@ -254,11 +326,48 @@ h6 {
   }
 }
 
+@media screen and (min-width: 1280px) {
+  .nav {
+    width: 1280px;
+  }
+}
+
+.registration-btn {
+  display: none;
+}
+
+@media screen and (min-width: 1280px) {
+  .registration-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: auto;
+    margin-right: 19px;
+    padding: 27px 19px;
+    background-color: #f3f0f0;
+    cursor: pointer;
+    border: none;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #000000;
+  }
+}
+
 .icon-user {
   width: 17px;
   height: 20px;
   margin-right: 21px;
   cursor: pointer;
+}
+
+@media screen and (min-width: 1280px) {
+  .icon-user {
+    display: none;
+  }
 }
 
 .nav-button {

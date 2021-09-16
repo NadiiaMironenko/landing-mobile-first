@@ -10,10 +10,16 @@
   border-right: 1px solid $main-color;
 
   cursor: pointer;
+
+  @media screen and(min-width:$desctop){
+    display: none;
+  }
 }
 
 .icon-burger {
   width: 20px;
   height: 20px;
   background-size: contain;
+
+  
 }
