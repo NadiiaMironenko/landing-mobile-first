@@ -9,6 +9,10 @@
     height: 350px;
     margin-bottom: 0;
   }
+
+  @media screen and(min-width:$desctop){
+    width: 295px;
+  }
 }
 
 .cards {
@@ -29,6 +33,10 @@
   @media screen and(min-width:$tablet){
     width: 352px;
     height: 275px;
+  }
+
+  @media screen and(min-width:$desctop){
+    width: 295px;
   }
 
 }
@@ -86,4 +94,12 @@
 .info {
   margin-left: 19px;
   margin-bottom: 20px;
+}
+
+.desctop{
+  display: none;
+
+  @media screen and(min-width:$desctop){
+    display: block;
+  }
 }

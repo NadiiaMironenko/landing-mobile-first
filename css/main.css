@@ -54,6 +54,12 @@ h6 {
   }
 }
 
+@media screen and (min-width: 1280px) {
+  .section {
+    width: 1280px;
+  }
+}
+
 .pages {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -122,6 +128,12 @@ h6 {
 .icon-arrow.right {
   top: 16px;
   right: 22px;
+}
+
+@media screen and (min-width: 1280px) {
+  .icon-arrow {
+    display: none;
+  }
 }
 
 .menu-button {
@@ -347,6 +359,7 @@ h6 {
     background-color: #f3f0f0;
     cursor: pointer;
     border: none;
+    border-color: transparent;
     font-family: Roboto;
     font-weight: 500;
     font-size: 12px;
@@ -437,6 +450,12 @@ h6 {
   }
 }
 
+@media screen and (min-width: 1280px) {
+  .features {
+    width: 295px;
+  }
+}
+
 .chapter {
   font-family: Montserrat;
   font-style: normal;
@@ -447,6 +466,12 @@ h6 {
   text-transform: uppercase;
   color: #000000;
   cursor: pointer;
+}
+
+@media screen and (min-width: 1280px) {
+  .chapter {
+    display: none;
+  }
 }
 
 .link-all {
@@ -464,6 +489,12 @@ h6 {
   cursor: pointer;
 }
 
+@media screen and (min-width: 1280px) {
+  .link-all {
+    display: none;
+  }
+}
+
 .card {
   width: 290px;
   height: 350px;
@@ -476,6 +507,12 @@ h6 {
     width: 352px;
     height: 350px;
     margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .card {
+    width: 295px;
   }
 }
 
@@ -503,6 +540,12 @@ h6 {
   .card-img {
     width: 352px;
     height: 275px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .card-img {
+    width: 295px;
   }
 }
 
@@ -558,6 +601,16 @@ h6 {
   margin-bottom: 20px;
 }
 
+.desctop {
+  display: none;
+}
+
+@media screen and (min-width: 1280px) {
+  .desctop {
+    display: block;
+  }
+}
+
 .footer {
   background-color: #ffffff;
   width: 320px;
@@ -579,6 +632,12 @@ h6 {
 @media screen and (min-width: 768px) {
   .footer {
     width: 768px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .footer {
+    width: 1280px;
   }
 }
 /*# sourceMappingURL=main.css.map */
