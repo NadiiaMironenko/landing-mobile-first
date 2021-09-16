@@ -86,9 +86,14 @@ h6 {
 
 .icon-arrow {
   display: none;
+  fill: #ffffff;
   position: absolute;
   width: 30px;
   height: 30px;
+}
+
+.icon-arrow:hover, .icon-arrow:focus {
+  fill: #ff6b09;
 }
 
 @media screen and (min-width: 768px) {
@@ -234,6 +239,63 @@ h6 {
   margin-right: 14px;
 }
 
+.nav {
+  display: none;
+  height: 70px;
+  width: 768px;
+  border-bottom: 1px solid #000000;
+}
+
+@media screen and (min-width: 768px) {
+  .nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+.icon-user {
+  width: 17px;
+  height: 20px;
+  margin-right: 21px;
+  cursor: pointer;
+}
+
+.nav-button {
+  width: 188px;
+  height: 69px;
+  background-color: #ff6b09;
+  border-color: transparent;
+  cursor: pointer;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 1.25;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 1280px) {
+  .nav-button {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.25;
+    width: 214px;
+  }
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 22px;
+  margin-left: auto;
+}
+
 .sale {
   position: relative;
 }
@@ -343,6 +405,7 @@ h6 {
   letter-spacing: 0.07em;
   color: #000000;
   margin-bottom: 4px;
+  cursor: pointer;
 }
 
 .discount {
@@ -408,62 +471,5 @@ h6 {
   .footer {
     width: 768px;
   }
-}
-
-.nav {
-  display: none;
-  height: 70px;
-  width: 768px;
-  border-bottom: 1px solid #000000;
-}
-
-@media screen and (min-width: 768px) {
-  .nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-}
-
-.icon-user {
-  width: 17px;
-  height: 20px;
-  margin-right: 21px;
-  cursor: pointer;
-}
-
-.nav-button {
-  width: 188px;
-  height: 69px;
-  background-color: #ff6b09;
-  border-color: transparent;
-  cursor: pointer;
-  font-family: Roboto;
-  font-weight: 500;
-  font-size: 10px;
-  line-height: 1.25;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: uppercase;
-}
-
-@media screen and (min-width: 1280px) {
-  .nav-button {
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 1.25;
-    width: 214px;
-  }
-}
-
-.wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-right: 22px;
-  margin-left: auto;
 }
 /*# sourceMappingURL=main.css.map */

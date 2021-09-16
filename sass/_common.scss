@@ -45,6 +45,12 @@
 
 .icon-arrow {
   display: none;
+  fill: $white-color;
+
+  &:hover,
+  &:focus {
+    fill: $secondary-color;
+  }
 
   @media screen and(min-width:$tablet) {
     display: block;
