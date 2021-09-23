@@ -66,3 +66,11 @@ cursor: pointer;
     display: none;
   }
 }
+
+.for-free, .business{
+  display: none;
+
+  @media screen and(min-width:$tablet){
+    display: block;
+  }
+}
